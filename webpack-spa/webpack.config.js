@@ -37,7 +37,7 @@ module.exports = {
       library: { type: "system" },
       filename: "remoteEntry.js",
       remotes: {
-        rollup_spa: "rollup_spa",
+        // rollup_spa: "rollup_spa",
       },
       exposes: {
         "./Button": "./src/Button",

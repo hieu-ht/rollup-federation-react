@@ -29,7 +29,6 @@ export default {
     federation({
       remotes: {
         foo_app1: "rwebpackremote",
-        foo_rollup_spa: "rollup_spa",
       },
       shared: {
         react: {
